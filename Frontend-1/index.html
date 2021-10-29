@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Developer Students Club</title>
+        <link rel="stylesheet" href="./main.css">
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <h4>NETFLIX</h4>
+                </li>
+                <li>
+                    <a class="active" href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a>Movie List</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cards">
+            <ul>
+                <li>
+                    <div onclick="JavaScript:theExtraction()" class="card">
+                        <img src="./Image/the_extraction.jpg" style="width: 100%;">
+                        <div class="container">
+                            <h4>The Extraction</h4>
+                            <h5>Drama, Action</h5>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div onclick="JavaScript:specialID()" class="card">
+                        <img src="./Image/special_id.jpg" style="width: 100%;">
+                        <div class="container">
+                            <h4>Special ID</h4>
+                            <h5>Action, Drama</h5>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div onclick="JavaScript:ipMan4()" class="card">
+                        <img src="./Image/ip_man4.jpg" style="width: 100%;">
+                        <div class="container">
+                            <h4>Ip Man 4</h4>
+                            <h5>Action, Martial Arts
+                            </h5>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div onclick="JavaScript:squidGame()" class="card">
+                        <img src="./Image/squid_game.jpg" style="width: 100%;">
+                        <div class="container">
+                            <h4>Squid Game</h4>
+                            <h5>Thriller, Drama</h5>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--Second Row-->
+        <div class="cards">
+            <ul>
+                <li>
+                    <div onclick="JavaScript:infinityWar()" class="card">
+                        <img src="./Image/avg_infinity.jpg" style="width: 100%;">
+                        <div class="container">
+                            <h4>Avengers : Infinty War</h4>
+                            <h5>Action, Superheroes</h5>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div onclick="JavaScript:endgame()" class="card">
+                        <img src="./Image/avg_endgame.jpg" style="width: 100%;">
+                        <div class="container">
+                            <h4>Avengers : Endgame</h4>
+                            <h5>Action, Superheroes</h5>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div onclick="JavaScript:guardianGalaxy()" class="card">
+                        <img src="./Image/gotg_2.jpg" style="width: 100%;">
+                        <div class="container">
+                            <h4>Guardians of The Galaxy 2</h4>
+                            <h5>Action, Superheroes</h5>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div onclick="JavaScript:spidermanHomecoming()" class="card">
+                        <img src="./Image/spdrman_hmcmg.jpg" style="width: 100%;">
+                        <div class="container">
+                            <h4>Spiderman : Homecoming</h4>
+                            <h5>Action, Superheroes</h5>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--Modal-->
+        <div id="description" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span onclick="JavaScript:closemodal()" id="close">&times;</span>
+                  <h2 id="title">Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                  <p id="overview">Some text in the Modal Body</p>
+                  <p id="rating">Some other text...</p>
+                </div>
+                <div class="modal-footer">
+                  <h3 id = "genre">Modal Footer</h3>
+                </div>
+              </div>
+          </div>
+    </body>
+    <script>
+    </script>
+</html>
